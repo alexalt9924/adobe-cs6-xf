@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+html { color-scheme: light; }
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #202820;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+main {
+  max-width: 640px;
+  margin: 12vh auto;
+  padding: 24px;
+}
+h1 {
+  margin: 0 0 24px;
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  line-height: 1.2;
+  overflow-wrap: break-word;
+}
+p { margin: 0 0 16px; }
+.status {
+  color: #505b50;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
